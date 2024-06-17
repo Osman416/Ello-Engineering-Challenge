@@ -12,7 +12,7 @@ const SearchBar = ({ searchTerm, onSearchChange, books }) => {
         labelId="book-select-label"
         value={searchTerm}
         onChange={(e) => onSearchChange(e.target.value)}
-        label="Select Book"
+        label="Select Books"
         style={{ color: theme.palette.custom.steelBlue }}
       >
         {books.map((book) => (
