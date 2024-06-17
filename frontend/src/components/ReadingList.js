@@ -11,6 +11,7 @@ const ReadingList = ({ readingList, onRemoveFromReadingList }) => {
         <Grid item key={book.title} xs={12} sm={6} md={4} lg={3}>
           <Card>
             <CardMedia
+              fit={{objectFit: "contain" }}
               component="img"
               alt={book.title}
               height="250"
