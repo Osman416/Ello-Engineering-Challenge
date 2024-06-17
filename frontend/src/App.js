@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Container, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { gql, useQuery } from '@apollo/client';
-import SearchBar from './assets/components/SearchBar';
-import BookList from './assets/components/BookList';
-import ReadingList from './assets/components/ReadingList';
+import SearchBar from './components/SearchBar';
+import BookList from './components/BookList';
+import ReadingList from './components/ReadingList';
 
 const useStyles = makeStyles((theme) => ({
   root: {
