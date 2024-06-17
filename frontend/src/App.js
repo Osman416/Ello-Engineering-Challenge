@@ -10,9 +10,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     fontFamily: 'Mulish, sans-serif',
     padding: theme.spacing(3),
+    backgroundColor: theme.palette.custom.turquoiseLight,
   },
   section: {
     marginTop: theme.spacing(3),
+  },
+  heading: {
+    color: theme.palette.custom.steelBlue,
   },
 }));
 
@@ -63,14 +67,14 @@ const App = () => {
 
   return (
     <Container className={classes.root}>
-      <Typography variant="h4">Book Assignment View</Typography>
+      <Typography variant="h4" className={classes.heading}>Book Assignment View</Typography>
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} books={data.books} />
       <div className={classes.section}>
-        <Typography variant="h6">Search Results</Typography>
+        <Typography variant="h6" className={classes.heading}>Search Results</Typography>
         <BookList books={filteredBooks} onAddToReadingList={handleAddToReadingList} />
       </div>
       <div className={classes.section}>
-        <Typography variant="h6">Reading List</Typography>
+        <Typography variant="h6" className={classes.heading}>Reading List</Typography>
         <ReadingList readingList={readingList} onRemoveFromReadingList={handleRemoveFromReadingList} />
       </div>
     </Container>
