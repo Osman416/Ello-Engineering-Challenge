@@ -1,0 +1,20 @@
+[
+  {
+    "author": "E. B. White",
+    "coverPhotoURL": "CharlotteWeb_Cover.png",
+    "readingLevel": "Beginner",
+    "title": "Charlotte's Web"
+  },
+  {
+    "author": "J. K. Rowling",
+    "coverPhotoURL": "FullStack_Cover.PNG",
+    "readingLevel": "Intermediate",
+    "title": "Harry Potter and the Philosopher's Stone"
+  },
+  {
+    "author": "Chris Northwood",
+    "coverPhotoURL": "Harry_Potter_Cover.jpg",
+    "readingLevel": "Advanced",
+    "title": "The Full Stack Developer"
+  }
+]
