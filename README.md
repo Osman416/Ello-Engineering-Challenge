@@ -9,7 +9,7 @@ Make sure you have Node.js and npm installed on your computer.
 
 Steps to Run
 Clone the repository:
-git clone https://github.com/your-username/book-assignment.git
+git clone https://github.com/Osman416/Ello-Engineering-Challenge.git
 cd book-assignment
 
 Run the Backend Server:
