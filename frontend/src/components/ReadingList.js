@@ -13,7 +13,7 @@ const ReadingList = ({ readingList, onRemoveFromReadingList }) => {
             <CardMedia
               component="img"
               alt={book.title}
-              height="140"
+              height="250"
               image={`/assets/${book.coverPhotoURL}`}
               title={book.title}
             />
