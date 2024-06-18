@@ -11,12 +11,12 @@ const ReadingList = ({ readingList, onRemoveFromReadingList }) => {
         <Grid item key={book.title} xs={12} sm={6} md={4} lg={3}>
           <Card>
             <CardMedia
-              object-fit= "contain"
               component="img"
               alt={book.title}
               height="250"
               image={`/assets/${book.coverPhotoURL}`}
               title={book.title}
+              sx={{ objectFit: "contain" }} 
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" style={{ color: theme.palette.custom.steelBlue }}>
